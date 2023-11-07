@@ -1,0 +1,53 @@
+[
+    
+        {
+            "Occupation": "Education",
+            "Women": 1125.15,
+            "Men": 1285.46,
+            "Percentage": 87.53, 
+            "colour": "green"
+        },
+        {
+            "Occupation": "Business",
+            "Women": 1184.77,
+            "Men": 1499.46,
+            "Percentage": 79.01,
+            "colour": "blue"
+        },
+        {
+            "Occupation": "Legal",
+            "Women": 1436.33,
+            "Men": 1985.67,
+            "Percentage": 72.34,
+            "colour": "brown"
+        },
+        {
+            "Occupation": "Entertainment",
+            "Women": 1246.00,
+            "Men": 1419.50,
+            "Percentage": 87.78,
+            "colour": "purple"
+        },
+        {
+            "Occupation": "Government",
+            "Women": 905.14,
+            "Men": 1062.86,
+            "Percentage": 85.16,
+            "colour": "yellow"
+        },
+        {
+            "Occupation": "Tech",
+            "Women": 1485.10,
+            "Men": 1644.30,
+            "Percentage": 90.32,
+            "colour": "red"
+        },
+        {
+            "Occupation": "Medical",
+            "Women": 1202.55,
+            "Men": 1420.64,
+            "Percentage": 84.65,
+            "colour": "orange"
+        }
+    
+    ]

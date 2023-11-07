@@ -1,0 +1,94 @@
+[
+  {
+      "Occupation": "Personal financial advisors",
+      "Women": 1424,
+      "Men": 2183,
+      "Percentage": 65.20,
+      "colour" : "purple"
+  },
+  {
+      "Occupation": "Financial managers",
+      "Women": 1372,
+      "Men": 1885,
+      "Percentage": 72.80,
+      "colour" : "red"
+  },
+  {
+      "Occupation": "Management, business, and financial operations occupations",
+      "Women": 1306,
+      "Men": 1672,
+      "Percentage": 78.10,
+      "colour" : "blue"
+  },
+  {
+      "Occupation": "Real estate brokers and sales agents",
+      "Women": 1037,
+      "Men": 1324,
+      "Percentage": 78.30,
+      "colour" : "orange"
+  },
+  {
+      "Occupation": "Financial and investment analysts",
+      "Women": 1607,
+      "Men": 1837,
+      "Percentage": 87.50,
+      "colour" : "yellow"
+  },
+  {
+      "Occupation": "Accountants and auditors",
+      "Women": 1261,
+      "Men": 1494,
+      "Percentage": 84.40,
+      "colour" : "darkgreen"
+  },
+  {
+      "Occupation": "Marketing managers",
+      "Women": 1490,
+      "Men": 1698,
+      "Percentage": 87.80,
+      "colour" :"silver"
+  },
+  {
+      "Occupation": "Wholesale and retail buyers, except farm products",
+      "Women": 1027,
+      "Men": 1072,
+      "Percentage": 95.80,
+      "colour" : "lightgreen"
+  },
+  {
+      "Occupation": "Billing and posting clerks",
+      "Women": 774,
+      "Men": 767,
+      "Percentage": 100.90,
+      "colour" : "brown"
+  },
+  {
+      "Occupation": "Securities, commodities, and financial services sales agents",
+      "Women": 1054,
+      "Men": 1891,
+      "Percentage": 55.7,
+      "colour" : "#e75480"
+  },
+  {
+      "Occupation": "Credit counselors and loan officers",
+      "Women": 1127,
+      "Men": 1560,
+      "Percentage": 72.2,
+      "colour" : "magenta"
+  },
+  {
+      "Occupation": "Insurance claims and policy processing clerks",
+      "Women": 766,
+      "Men": 754,
+      "Percentage": 101.6,
+      "colour" : "#FFDAB9"
+  },
+  {
+      "Occupation": "Sales representatives, wholesale and manufacturing",
+      "Women": 1157,
+      "Men": 1356,
+      "Percentage": 85.3,
+      "colour": "#C4A484"
+  }
+  
+]

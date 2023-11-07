@@ -1,0 +1,80 @@
+[
+        {
+            "Occupation": "Medical scientists",
+            "Women": 1368,
+            "Men": 2291,
+            "Percentage": "59.7",
+            "colour" : "purple"
+        },
+        {
+            "Occupation": "Medical assistants",
+            "Women": 668,
+            "Men": 980,
+            "Percentage": "68.2",
+            "colour" : "red"
+        },
+        {
+            "Occupation": "Medical and health services managers",
+            "Women": 1363,
+            "Men": 1773,
+            "Percentage": "76.9",
+            "colour" : "blue"
+        },
+        {
+            "Occupation": "Registered nurses",
+            "Women": 1274,
+            "Men": 1437,
+            "Percentage": "88.7",
+            "colour" : "yellow"
+        },
+        {
+            "Occupation": "Physical therapists",
+            "Women": 1478,
+            "Men": 1551,
+            "Percentage": "95.3",
+            "colour" : "orange"
+        },
+        {
+            "Occupation": "Pharmacists",
+            "Women": 2087,
+            "Men": 2010,
+            "Percentage": "103.8",
+            "colour" : "silver"
+        },
+        {
+            "Occupation": "Healthcare practitioners and technical occupations",
+            "Women": 1218,
+            "Men": 1516,
+            "Percentage": "80.3",
+            "colour" : "magenta"
+        },
+        {
+            "Occupation": "Miscellaneous health technologists and technicians",
+            "Women": 835,
+            "Men": 1003,
+            "Percentage": "83.3",
+            "colour" : "brown"
+        },
+        {
+            "Occupation": "Radiologic technologists and technicians",
+            "Women": 1140,
+            "Men": 1280,
+            "Percentage": "89.1",
+            "colour": "#C4A484"
+        },
+        {
+            "Occupation": "Pharmacy technicians",
+            "Women": 796,
+            "Men": 822,
+            "Percentage": "96.8",
+            "colour": "lightgreen"
+        },
+        {
+            "Occupation": "Clinical laboratory technologists and technicians",
+            "Women": 1001,
+            "Men": 964,
+            "Percentage": "103.8",
+            "colour" : "#FFDAB9"
+        }
+    ]
+
