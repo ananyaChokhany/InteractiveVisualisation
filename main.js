@@ -189,15 +189,79 @@ const yScale = d3.scaleLinear()
         }
     })
     .on("mouseover", function (event, d) {
+        if (keyframes[keyframeIndex].activeVerse === 4) {
+            const tooltipGroup = svg.append("g")
+                .attr("class", "tooltip");
+    
+            tooltipGroup.append("rect")
+                .attr("x", xScale(d.Women + value - 480) - 5) 
+                .attr("y", yScale(d.Men - value) - 30)
+                .attr("width", 100) 
+                .attr("height", 120)
+                .attr("fill", "white")
+                .attr("stroke", "black")
+                .attr("stroke-width", 1);
+    
+            tooltipGroup.append("text")
+                .attr("x", xScale(d.Women + value - 480) + 3) 
+                .attr("y", yScale(d.Men - value) - 5) 
+                .text(d.Occupation)
+                .style("font-weight", "bold")
+                .style("font-size", "14px");
+    
+            tooltipGroup.append("text")
+                .attr("x", xScale(d.Women + value - 480) + 5) 
+                .attr("y", yScale(d.Men - value) + 15) 
+                .text("Women: " + d.Women)
+                .style("font-size", "12px");
+
+            tooltipGroup.append("text")
+            .attr("x", xScale(d.Women + value - 480) + 5) 
+            .attr("y", yScale(d.Men - value) + 30) 
+            .text("Men: " + d.Men)
+            .style("font-size", "12px");
+
+            tooltipGroup.append("text")
+            .attr("x", xScale(d.Women + value - 480) + 5) 
+            .attr("y", yScale(d.Men - value) + 45) 
+            .text("Women's salaray " )
+
+            .style("font-size", "12px");
+
+            tooltipGroup.append("text")
+            .attr("x", xScale(d.Women + value - 480) + 5) 
+            .attr("y", yScale(d.Men - value) + 55) 
+            .text("as a % of men's : " )
+
+            .style("font-size", "12px");
+
+            tooltipGroup.append("text")
+            .attr("x", xScale(d.Women + value - 480) + 25) 
+            .attr("y", yScale(d.Men - value) + 69) 
+            .text("" + d.Percentage )
+
+            .style("font-size", "12px");
+        }
+
+        else{
       svg.append("text")
         .attr("class", "occupation-label")
         .attr("x", xScale(d.Women + value - 480))
         .attr("y", yScale(d.Men - value) - 10)
         .text(d.Occupation);
+        }
     })
     .on("mouseout", function () {
+        if (keyframes[keyframeIndex].activeVerse === 4) {
+            
+            svg.select(".tooltip").remove();
+        }
       svg.selectAll(".occupation-label").remove();
     });
+
+    
+
+    
 
     chart.append("g")
     .attr("class", "x-axis")
