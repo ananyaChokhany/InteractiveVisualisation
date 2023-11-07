@@ -12,5 +12,12 @@ Running the code locally on your machine-
 1. Downaload the files from this repository 
 2. Open the file titled index.html with a live server - you should see the same results as the web page.
 
+Interactive elements-
+
+1. Dropdown filter in all the verses
+2. Line 3 and 4 of verses 2 provide insight into business area and medical area
+3. click on the dot in verse 3 highlights that dot, and dims the rest
+4. hovering over the dots shows the data labels
+
 
    
